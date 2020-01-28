@@ -1,0 +1,171 @@
+[INFO ] 2020-01-25 22:14:21.051 [main]
+			urlShortenerLogger - UrlShortenerApplication Begin >>
+[INFO ] 2020-01-25 22:14:21.407 [restartedMain]
+			urlShortenerLogger - UrlShortenerApplication Begin >>
+[INFO ] 2020-01-25 22:14:22.442 [restartedMain]
+			UrlShortenerApplication - Starting UrlShortenerApplication on breno-pc with PID 8755 (/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/target/classes started by breno in /home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api)
+[INFO ] 2020-01-25 22:14:22.449 [restartedMain]
+			UrlShortenerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-01-25 22:14:22.602 [restartedMain]
+			ChangeableUrls - The Class-Path manifest attribute in /home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/home/breno/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+[INFO ] 2020-01-25 22:14:22.604 [restartedMain]
+			DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-01-25 22:14:22.612 [restartedMain]
+			DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-01-25 22:14:25.781 [restartedMain]
+			RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-01-25 22:14:26.013 [restartedMain]
+			RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 210ms. Found 1 JPA repository interfaces.
+[INFO ] 2020-01-25 22:14:26.974 [restartedMain]
+			PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-01-25 22:14:27.840 [restartedMain]
+			TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-01-25 22:14:27.883 [restartedMain]
+			Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-01-25 22:14:27.888 [restartedMain]
+			StandardService - Starting service [Tomcat]
+[INFO ] 2020-01-25 22:14:27.892 [restartedMain]
+			StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2020-01-25 22:14:28.143 [restartedMain]
+			[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-01-25 22:14:28.146 [restartedMain]
+			ContextLoader - Root WebApplicationContext: initialization completed in 5532 ms
+[INFO ] 2020-01-25 22:14:28.618 [restartedMain]
+			HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2020-01-25 22:14:29.208 [restartedMain]
+			HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2020-01-25 22:14:29.229 [restartedMain]
+			H2ConsoleAutoConfiguration - H2 console available at '/h3-console'. Database available at 'jdbc:h2:mem:url-shortener'
+[INFO ] 2020-01-25 22:14:29.917 [restartedMain]
+			LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-01-25 22:14:30.039 [restartedMain]
+			Version - HHH000412: Hibernate Core {5.4.9.Final}
+[INFO ] 2020-01-25 22:14:30.278 [restartedMain]
+			Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[INFO ] 2020-01-25 22:14:30.517 [restartedMain]
+			Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2020-01-25 22:14:32.072 [restartedMain]
+			JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-01-25 22:14:32.083 [restartedMain]
+			LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-01-25 22:14:32.120 [restartedMain]
+			OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-01-25 22:14:32.887 [restartedMain]
+			urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.889 [restartedMain]
+			urlShortenerLogger - minLengthInclusive ==> [ 5 ]
+[INFO ] 2020-01-25 22:14:32.891 [restartedMain]
+			urlShortenerLogger - maxLengthExclusive ==> [ 10 ]
+[INFO ] 2020-01-25 22:14:32.892 [restartedMain]
+			urlShortenerLogger - GeneratorRandomAlphanumericStringHelper ==> [ GeneratorRandomAlphanumericStringHelperImpl ]
+[INFO ] 2020-01-25 22:14:32.895 [restartedMain]
+			urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl End <<
+[INFO ] 2020-01-25 22:14:32.902 [restartedMain]
+			urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.903 [restartedMain]
+			urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:14:32.907 [restartedMain]
+			urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl End <<
+[INFO ] 2020-01-25 22:14:32.913 [restartedMain]
+			urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.915 [restartedMain]
+			urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:14:32.918 [restartedMain]
+			urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl End >>
+[INFO ] 2020-01-25 22:14:32.924 [restartedMain]
+			urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.927 [restartedMain]
+			urlShortenerLogger - validToAditionalDays ==> [ 1 ]
+[INFO ] 2020-01-25 22:14:32.928 [restartedMain]
+			urlShortenerLogger - SumDateHelperImpl ==> [ SumDateHelperImpl ]
+[INFO ] 2020-01-25 22:14:32.931 [restartedMain]
+			urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl End <<
+[WARN ] 2020-01-25 22:14:33.495 [restartedMain]
+			JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-01-25 22:14:33.822 [restartedMain]
+			EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2020-01-25 22:14:34.061 [restartedMain]
+			PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2020-01-25 22:14:34.294 [restartedMain]
+			ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-25 22:14:34.799 [restartedMain]
+			DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2020-01-25 22:14:34.850 [restartedMain]
+			DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2020-01-25 22:14:34.913 [restartedMain]
+			ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2020-01-25 22:14:35.230 [restartedMain]
+			Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-01-25 22:14:35.305 [restartedMain]
+			TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-01-25 22:14:35.310 [restartedMain]
+			UrlShortenerApplication - Started UrlShortenerApplication in 13.886 seconds (JVM running for 16.611)
+[INFO ] 2020-01-25 22:14:35.325 [restartedMain]
+			urlShortenerLogger - UrlShortenerApplication End <<
+[INFO ] 2020-01-25 22:15:13.358 [Thread-6]
+			ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-25 22:15:13.365 [Thread-6]
+			LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-01-25 22:15:13.367 [Thread-6]
+			SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[WARN ] 2020-01-25 22:15:13.609 [Thread-6]
+			DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+[INFO ] 2020-01-25 22:15:13.611 [Thread-6]
+			HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2020-01-25 22:15:13.616 [Thread-6]
+			HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2020-01-25 22:15:13.904 [restartedMain]
+			urlShortenerLogger - UrlShortenerApplication Begin >>
+[INFO ] 2020-01-25 22:15:14.234 [restartedMain] UrlShortenerApplication - Starting UrlShortenerApplication on breno-pc with PID 8755 (/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/target/classes started by breno in /home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api)
+[INFO ] 2020-01-25 22:15:14.242 [restartedMain] UrlShortenerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-01-25 22:15:15.552 [restartedMain] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2020-01-25 22:15:15.577 [restartedMain] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 1 JPA repository interfaces.
+[INFO ] 2020-01-25 22:15:16.011 [restartedMain] PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[WARN ] 2020-01-25 22:15:16.168 [restartedMain] Registry - The MBean registry cannot be disabled because it has already been initialised
+[INFO ] 2020-01-25 22:15:16.213 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-01-25 22:15:16.216 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-01-25 22:15:16.218 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2020-01-25 22:15:16.222 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 2020-01-25 22:15:16.261 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-01-25 22:15:16.265 [restartedMain] ContextLoader - Root WebApplicationContext: initialization completed in 2012 ms
+[INFO ] 2020-01-25 22:15:16.494 [restartedMain] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2020-01-25 22:15:16.518 [restartedMain] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2020-01-25 22:15:16.519 [restartedMain] H2ConsoleAutoConfiguration - H2 console available at '/h3-console'. Database available at 'jdbc:h2:mem:url-shortener'
+[INFO ] 2020-01-25 22:15:16.797 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2020-01-25 22:15:16.817 [restartedMain] Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO ] 2020-01-25 22:15:16.894 [restartedMain] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2020-01-25 22:15:16.896 [restartedMain] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-01-25 22:15:16.910 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-01-25 22:15:17.092 [restartedMain] urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.094 [restartedMain] urlShortenerLogger - minLengthInclusive ==> [ 5 ]
+[INFO ] 2020-01-25 22:15:17.095 [restartedMain] urlShortenerLogger - maxLengthExclusive ==> [ 10 ]
+[INFO ] 2020-01-25 22:15:17.097 [restartedMain] urlShortenerLogger - GeneratorRandomAlphanumericStringHelper ==> [ GeneratorRandomAlphanumericStringHelperImpl ]
+[INFO ] 2020-01-25 22:15:17.099 [restartedMain] urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl End <<
+[INFO ] 2020-01-25 22:15:17.104 [restartedMain] urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.106 [restartedMain] urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:15:17.111 [restartedMain] urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl End <<
+[INFO ] 2020-01-25 22:15:17.114 [restartedMain] urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.116 [restartedMain] urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:15:17.119 [restartedMain] urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl End >>
+[INFO ] 2020-01-25 22:15:17.124 [restartedMain] urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.126 [restartedMain] urlShortenerLogger - validToAditionalDays ==> [ 1 ]
+[INFO ] 2020-01-25 22:15:17.127 [restartedMain] urlShortenerLogger - SumDateHelperImpl ==> [ SumDateHelperImpl ]
+[INFO ] 2020-01-25 22:15:17.132 [restartedMain] urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl End <<
+[WARN ] 2020-01-25 22:15:17.405 [restartedMain] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2020-01-25 22:15:17.561 [restartedMain] EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2020-01-25 22:15:17.709 [restartedMain] PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO ] 2020-01-25 22:15:17.852 [restartedMain] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-25 22:15:18.042 [restartedMain] DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2020-01-25 22:15:18.047 [restartedMain] DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2020-01-25 22:15:18.065 [restartedMain] ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2020-01-25 22:15:18.149 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-01-25 22:15:18.218 [restartedMain] TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-01-25 22:15:18.221 [restartedMain] UrlShortenerApplication - Started UrlShortenerApplication in 4.299 seconds (JVM running for 59.522)
+[INFO ] 2020-01-25 22:15:18.226 [restartedMain] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-01-25 22:15:18.227 [restartedMain] urlShortenerLogger - UrlShortenerApplication End <<
+[INFO ] 2020-01-25 22:34:20.174 [SpringContextShutdownHook] ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-25 22:34:20.196 [SpringContextShutdownHook] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2020-01-25 22:34:20.201 [SpringContextShutdownHook] SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[WARN ] 2020-01-25 22:34:20.503 [SpringContextShutdownHook] DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+[INFO ] 2020-01-25 22:34:20.505 [SpringContextShutdownHook] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2020-01-25 22:34:20.550 [SpringContextShutdownHook] HikariDataSource - HikariPool-2 - Shutdown completed.

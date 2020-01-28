@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+	<Properties>
+		<Property name="LOG_PATTERN">[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</Property>
+		<Property name="FILE_PATTERN">-%d{yyyy-MM-dd}-%i.log</Property>
+		<Property name="BASE_PATH">logs/</Property>
+		<Property name="SIZE_BASED_TRIGGERING_POLICY">50MB</Property>
+		<Property name="logstash.host">udp:localhost</Property>
+		<Property name="logstash.port">12201</Property>
+	</Properties>
+	<Appenders>
+		<Console name="consoleLoggerAppender" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="teste %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<Gelf name="Gelf" host="${logstash.host}" port="${logstash.port}"
+			version="1.1" extractStackTrace="true" filterStackTrace="false"
+			originHost="%host{fqdn}">
+			<Field name="timestamp" pattern="%d{dd MMM yyyy HH:mm:ss,SSS}" />
+			<Field name="level" pattern="%level" />
+			<Field name="simpleClassName" pattern="%C{1}" />
+			<Field name="className" pattern="%C" />
+			<Field name="server" pattern="%host" />
+			<Field name="application" pattern="logging" />
+			<Field name="tag" pattern="log" />
+		</Gelf>
+		<RollingFile name="allLogerAppender"
+			fileName="${BASE_PATH}all.log"
+			filePattern="${BASE_PATH}all${FILE_PATTERN}">
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy
+					size="${SIZE_BASED_TRIGGERING_POLICY}" />
+			</Policies>
+			<DefaultRolloverStrategy max="1" />
+			<PatternLayout>
+				<pattern>${LOG_PATTERN}</pattern>
+			</PatternLayout>
+		</RollingFile>
+		<RollingFile name="urlShortenerLoggerAppender"
+			fileName="${BASE_PATH}urlShortener.log"
+			filePattern="${BASE_PATH}urlShortener${FILE_PATTERN}">
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy
+					size="${SIZE_BASED_TRIGGERING_POLICY}" />
+			</Policies>
+			<DefaultRolloverStrategy max="30" />
+			<PatternLayout>
+				<pattern>${LOG_PATTERN}</pattern>
+			</PatternLayout>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Logger name="br.com.liax" level="debug" additivity="false">
+			<AppenderRef ref="allLogerAppender" />
+			<AppenderRef ref="ConsoleLoggerAppender" />
+			<AppenderRef ref="Gelf" />
+		</Logger>
+		<Logger name="urlShortenerLogger" level="debug"
+			additivity="false">
+			<AppenderRef ref="consoleLoggerAppender" />
+			<AppenderRef ref="urlShortenerLoggerAppender" />
+			<AppenderRef ref="allLogerAppender" />
+			<AppenderRef ref="Gelf" />
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="allLogerAppender" />
+			<AppenderRef ref="consoleLoggerAppender" />
+			<AppenderRef ref="Gelf" />
+		</Root>
+	</Loggers>
+</Configuration>

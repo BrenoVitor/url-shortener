@@ -1,0 +1,54 @@
+[INFO ] 2020-01-25 22:14:21.051 [main]
+			urlShortenerLogger - UrlShortenerApplication Begin >>
+[INFO ] 2020-01-25 22:14:21.407 [restartedMain]
+			urlShortenerLogger - UrlShortenerApplication Begin >>
+[INFO ] 2020-01-25 22:14:32.887 [restartedMain]
+			urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.889 [restartedMain]
+			urlShortenerLogger - minLengthInclusive ==> [ 5 ]
+[INFO ] 2020-01-25 22:14:32.891 [restartedMain]
+			urlShortenerLogger - maxLengthExclusive ==> [ 10 ]
+[INFO ] 2020-01-25 22:14:32.892 [restartedMain]
+			urlShortenerLogger - GeneratorRandomAlphanumericStringHelper ==> [ GeneratorRandomAlphanumericStringHelperImpl ]
+[INFO ] 2020-01-25 22:14:32.895 [restartedMain]
+			urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl End <<
+[INFO ] 2020-01-25 22:14:32.902 [restartedMain]
+			urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.903 [restartedMain]
+			urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:14:32.907 [restartedMain]
+			urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl End <<
+[INFO ] 2020-01-25 22:14:32.913 [restartedMain]
+			urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.915 [restartedMain]
+			urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:14:32.918 [restartedMain]
+			urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl End >>
+[INFO ] 2020-01-25 22:14:32.924 [restartedMain]
+			urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl Begin >>
+[INFO ] 2020-01-25 22:14:32.927 [restartedMain]
+			urlShortenerLogger - validToAditionalDays ==> [ 1 ]
+[INFO ] 2020-01-25 22:14:32.928 [restartedMain]
+			urlShortenerLogger - SumDateHelperImpl ==> [ SumDateHelperImpl ]
+[INFO ] 2020-01-25 22:14:32.931 [restartedMain]
+			urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl End <<
+[INFO ] 2020-01-25 22:14:35.325 [restartedMain]
+			urlShortenerLogger - UrlShortenerApplication End <<
+[INFO ] 2020-01-25 22:15:13.904 [restartedMain]
+			urlShortenerLogger - UrlShortenerApplication Begin >>
+[INFO ] 2020-01-25 22:15:17.092 [restartedMain] urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.094 [restartedMain] urlShortenerLogger - minLengthInclusive ==> [ 5 ]
+[INFO ] 2020-01-25 22:15:17.095 [restartedMain] urlShortenerLogger - maxLengthExclusive ==> [ 10 ]
+[INFO ] 2020-01-25 22:15:17.097 [restartedMain] urlShortenerLogger - GeneratorRandomAlphanumericStringHelper ==> [ GeneratorRandomAlphanumericStringHelperImpl ]
+[INFO ] 2020-01-25 22:15:17.099 [restartedMain] urlShortenerLogger - UrlShortenerService injection UrlShortenerServiceImpl End <<
+[INFO ] 2020-01-25 22:15:17.104 [restartedMain] urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.106 [restartedMain] urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:15:17.111 [restartedMain] urlShortenerLogger - GetUrlOriginalByShortenedUrlService injection GetUrlOriginalByShortenedUrlServiceImpl End <<
+[INFO ] 2020-01-25 22:15:17.114 [restartedMain] urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.116 [restartedMain] urlShortenerLogger - urlRepository ==> [ urlRepository ]
+[INFO ] 2020-01-25 22:15:17.119 [restartedMain] urlShortenerLogger - SaveUrlShortenedService injection SaveUrlShortenedServiceImpl End >>
+[INFO ] 2020-01-25 22:15:17.124 [restartedMain] urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl Begin >>
+[INFO ] 2020-01-25 22:15:17.126 [restartedMain] urlShortenerLogger - validToAditionalDays ==> [ 1 ]
+[INFO ] 2020-01-25 22:15:17.127 [restartedMain] urlShortenerLogger - SumDateHelperImpl ==> [ SumDateHelperImpl ]
+[INFO ] 2020-01-25 22:15:17.132 [restartedMain] urlShortenerLogger - CreateUrlInstanceService injection CreateUrlInstanceServiceImpl End <<
+[INFO ] 2020-01-25 22:15:18.227 [restartedMain] urlShortenerLogger - UrlShortenerApplication End <<
