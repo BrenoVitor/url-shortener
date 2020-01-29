@@ -1,0 +1,12 @@
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/facade/impl/LoggerFacadeImpl.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/helper/UrlValidatorHelper.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/exception/GenerateUrlShortenedDuplicatedException.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/helper/SumDateHelper.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/facade/LoggerFacade.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/validator/AbstractValidator.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/helper/GeneratorRandomAlphanumericStringHelper.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/helper/impl/GeneratorRandomAlphanumericStringHelperImpl.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/helper/impl/SumDateHelperImpl.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/helper/impl/UrlValidatorHelperImpl.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/validator/CommonValidator.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-common/src/main/java/br/com/backendbrasil/urlshortener/exception/NotFoundUrlByShortAddressAdValidToAfter.java

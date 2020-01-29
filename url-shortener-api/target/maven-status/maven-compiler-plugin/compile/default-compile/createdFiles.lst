@@ -1,0 +1,9 @@
+br/com/backendbrasil/urlshortener/config/CorsConfig.class
+br/com/backendbrasil/urlshortener/controller/advice/ControllerAdvice.class
+br/com/backendbrasil/urlshortener/config/BeanConfig.class
+br/com/backendbrasil/urlshortener/controller/UrlController.class
+br/com/backendbrasil/urlshortener/controller/impl/UrlControllerImpl.class
+br/com/backendbrasil/urlshortener/controller/advice/impl/MethodArgumentNotValidExceptionControllerAdviceImpl.class
+br/com/backendbrasil/urlshortener/config/SwaggerConfig.class
+br/com/backendbrasil/urlshortener/UrlShortenerApplication.class
+br/com/backendbrasil/urlshortener/config/PropertiesConfig.class

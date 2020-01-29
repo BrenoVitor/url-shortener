@@ -1,0 +1,4 @@
+br/com/backendbrasil/urlshortener/dto/UrlShortenedDto.class
+br/com/backendbrasil/urlshortener/dto/MethodArgumentNotValidExceptionDto.class
+br/com/backendbrasil/urlshortener/dto/UrlOriginalDto.class
+br/com/backendbrasil/urlshortener/model/Url.class

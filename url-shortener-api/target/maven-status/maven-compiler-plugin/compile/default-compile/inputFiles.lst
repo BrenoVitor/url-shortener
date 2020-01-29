@@ -1,0 +1,9 @@
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/config/CorsConfig.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/controller/advice/ControllerAdvice.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/controller/advice/impl/MethodArgumentNotValidExceptionControllerAdviceImpl.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/config/BeanConfig.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/config/PropertiesConfig.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/controller/UrlController.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/config/SwaggerConfig.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/controller/impl/UrlControllerImpl.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/main/java/br/com/backendbrasil/urlshortener/UrlShortenerApplication.java
