@@ -1,0 +1,80 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-03T17:37:58.603Z",
+        "line": 23,
+        "name": "Test shorten URL, The client send an URL for the system that return the URL shortened",
+        "description": "",
+        "id": "shorten-url;test-shorten-url--the-client-send-an-url-for-the-system-that-return-the-url-shortened",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 800000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "an URL Valid \"http://www.google.com.br\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com.br",
+                  "offset": 14
+                }
+              ],
+              "location": "br.com.backendbrasil.urlshortener.cucumber.step.UrlStep.createAValidUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "this URL is send for the system",
+            "match": {
+              "location": "br.com.backendbrasil.urlshortener.cucumber.step.UrlStep.sendAValidUrlForTheSystem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "is returned an shortened URL",
+            "match": {
+              "location": "br.com.backendbrasil.urlshortener.cucumber.step.UrlStep.returnShortenedUrl()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UrlTest"
+          }
+        ]
+      }
+    ],
+    "name": "Shorten URL",
+    "description": "  the system should shorten the URL when the client passes a URL",
+    "id": "shorten-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/url.feature",
+    "tags": [
+      {
+        "name": "@UrlTest",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
