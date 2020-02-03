@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.backendbrasil.urlshortener.respository.UrlRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.271 s - in br.com.backendbrasil.urlshortener.respository.UrlRepositoryTest

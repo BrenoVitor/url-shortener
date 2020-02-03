@@ -1,0 +1,9 @@
+br/com/backendbrasil/urlshortener/service/CreateUrlInstanceServiceTest.class
+br/com/backendbrasil/urlshortener/service/GetUrlOriginalByShortenedUrlServiceTest.class
+br/com/backendbrasil/urlshortener/service/SaveUrlShortenedServiceTest.class
+br/com/backendbrasil/urlshortener/service/ValidateUrlOriginalServiceTest.class
+br/com/backendbrasil/urlshortener/controller/UrlControllerTest$Config.class
+br/com/backendbrasil/urlshortener/service/ValidateUrlShortenerDuplicatedToUrlOriginalAndValidToServiceTest.class
+br/com/backendbrasil/urlshortener/controller/UrlControllerTest.class
+br/com/backendbrasil/urlshortener/service/UrlShortenerServiceTest.class
+br/com/backendbrasil/urlshortener/respository/UrlRepositoryTest.class

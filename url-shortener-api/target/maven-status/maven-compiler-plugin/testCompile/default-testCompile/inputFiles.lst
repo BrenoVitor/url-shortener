@@ -1,0 +1,8 @@
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/service/CreateUrlInstanceServiceTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/service/GetUrlOriginalByShortenedUrlServiceTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/service/SaveUrlShortenedServiceTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/controller/UrlControllerTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/service/ValidateUrlShortenerDuplicatedToUrlOriginalAndValidToServiceTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/respository/UrlRepositoryTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/service/UrlShortenerServiceTest.java
+/home/breno/Documents/liax/projetos/source/url-shortener/url-shortener-api/src/test/java/br/com/backendbrasil/urlshortener/service/ValidateUrlOriginalServiceTest.java
